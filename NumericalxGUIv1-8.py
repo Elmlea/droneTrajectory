@@ -6,7 +6,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 def projectile_trajectory(v0, m, initial_y, dt, c, A):
     # Constants
     p = 1.45661  # Air density (kg/m^3)
-    k = c * p * A / m
+    k = c * p * A / 2
 
     g = 9.81  # Acceleration due to gravity (m/s^2)
 
